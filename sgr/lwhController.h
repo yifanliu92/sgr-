@@ -15,7 +15,6 @@
     IBOutlet UIImageView *lwh3detail;
     IBOutlet UIImageView *lwh4detail;
     IBOutlet UIImageView *lwh5detail;
-    UIButton *lwh2;
 }
 - (IBAction)lwh1:(id)sender;
 - (IBAction)lwh2:(id)sender;

@@ -55,12 +55,6 @@
     ub2detail = nil;
     [ub3detail release];
     ub3detail = nil;
-    [ub1detail release];
-    ub1detail = nil;
-    [ub2detail release];
-    ub2detail = nil;
-    [ub3detail release];
-    ub3detail = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

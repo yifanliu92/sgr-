@@ -130,18 +130,16 @@
         [detailViewController release];
     }
     }
+    
     if (indexPath.row == 1) {
-        
-        
-        
     lwhController *detailViewController = [[lwhController alloc] initWithNibName:@"lwhController" bundle:nil];
         {
         [self.navigationController pushViewController: detailViewController animated:YES];
         [detailViewController release];
         }
     }
+    
     if (indexPath.row == 2) {
-
     ubController *detailViewController = [[ubController alloc] initWithNibName:@"ubController" bundle:nil];
     {
         [self.navigationController pushViewController: detailViewController animated:YES];
@@ -149,7 +147,6 @@
     }
     }   
 }
-
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.

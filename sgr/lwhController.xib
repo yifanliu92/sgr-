@@ -62,7 +62,7 @@
 					<object class="IBUIButton" id="801453254">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{180, 140}, {24, 24}}</string>
+						<string key="NSFrame">{{177, 137}, {30, 30}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSNextKeyView" ref="613698052"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -92,7 +92,7 @@
 					<object class="IBUIButton" id="91368564">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{123, 324}, {24, 24}}</string>
+						<string key="NSFrame">{{117, 318}, {35, 35}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -111,7 +111,7 @@
 					<object class="IBUIButton" id="389763064">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{253, 302}, {24, 24}}</string>
+						<string key="NSFrame">{{247, 297}, {35, 35}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSNextKeyView" ref="91368564"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -131,7 +131,7 @@
 					<object class="IBUIButton" id="216470937">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{159, 177}, {24, 24}}</string>
+						<string key="NSFrame">{{152, 171}, {35, 35}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSNextKeyView" ref="389763064"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -151,7 +151,7 @@
 					<object class="IBUIButton" id="613698052">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{206, 135}, {24, 24}}</string>
+						<string key="NSFrame">{{203, 132}, {30, 30}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSNextKeyView" ref="216470937"/>
 						<bool key="IBUIOpaque">NO</bool>
