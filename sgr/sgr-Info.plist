@@ -14,6 +14,7 @@
 	<array>
 		<string>572golf.png</string>
 		<string>golf114.png</string>
+		<string>golf114.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>Yif.${PRODUCT_NAME:rfc1034identifier}</string>
