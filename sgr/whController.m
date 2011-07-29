@@ -23,13 +23,7 @@
 
 - (void)dealloc
 {
-    [wh1detail release];
-    [wh2detail release];
-    [wh3detail release];
-    [wh2detail release];
-    [wh1detail release];
-    [wh2detail release];
-    [wh3detail release];
+
     [super dealloc];
 }
 
@@ -51,19 +45,7 @@
 
 - (void)viewDidUnload
 {
-    [wh1detail release];
-    wh1detail = nil;
-    [wh2detail release];
-    wh2detail = nil;
-    [wh3detail release];
-    wh3detail = nil;
 
-    [wh1detail release];
-    wh1detail = nil;
-    [wh2detail release];
-    wh2detail = nil;
-    [wh3detail release];
-    wh3detail = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

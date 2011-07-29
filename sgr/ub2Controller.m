@@ -1,15 +1,15 @@
 //
-//  ubController.m
+//  ub2Controller.m
 //  sgr
 //
-//  Created by Liu Yifan on 11-7-25.
+//  Created by Boris Wang on 11-7-27.
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import "ubController.h"
+#import "ub2Controller.h"
 
 
-@implementation ubController
+@implementation ub2Controller
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,9 +22,6 @@
 
 - (void)dealloc
 {
-    [ub1detail release];
-    [ub2detail release];
-    [ub3detail release];
     [ub1detail release];
     [ub2detail release];
     [ub3detail release];
@@ -70,7 +67,6 @@
     if(ub1detail.hidden == NO)
         ub1detail.hidden = YES;
     else ub1detail.hidden = NO;
-
 }
 
 - (IBAction)ub2:(id)sender {

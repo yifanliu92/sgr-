@@ -8,7 +8,7 @@
 #import "RootViewController.h"
 #import "whController.h"
 #import "lwhController.h"
-#import "ubController.h"
+#import "ub2Controller.h"
 
 @implementation RootViewController
 
@@ -122,29 +122,28 @@
 {
     if (indexPath.row == 0) {
         
-    
-    
-    whController *detailViewController = [[whController alloc] initWithNibName:@"whController" bundle:nil];
-    {
-        [self.navigationController pushViewController: detailViewController animated:YES];
-        [detailViewController release];
-    }
+        whController *detailViewController = [[whController alloc] initWithNibName:@"whController" bundle:nil];
+        {
+            
+            [self.navigationController pushViewController: detailViewController animated:YES];
+            [detailViewController release];
+        }
     }
     
     if (indexPath.row == 1) {
-    lwhController *detailViewController = [[lwhController alloc] initWithNibName:@"lwhController" bundle:nil];
+        lwhController *detailViewController = [[lwhController alloc] initWithNibName:@"lwhController" bundle:nil];
         {
-        [self.navigationController pushViewController: detailViewController animated:YES];
-        [detailViewController release];
+            [self.navigationController pushViewController: detailViewController animated:YES];
+            [detailViewController release];
         }
     }
     
     if (indexPath.row == 2) {
-    ubController *detailViewController = [[ubController alloc] initWithNibName:@"ubController" bundle:nil];
-    {
-        [self.navigationController pushViewController: detailViewController animated:YES];
-        [detailViewController release];
-    }
+        ub2Controller *detailViewController = [[ub2Controller alloc] initWithNibName:@"ub2Controller" bundle:nil];
+        {
+            [self.navigationController pushViewController: detailViewController animated:YES];
+            [detailViewController release];
+        }
     }   
 }
 - (void)didReceiveMemoryWarning
@@ -157,21 +156,8 @@
 
 - (void)viewDidUnload
 {
-    [wh release];
-    wh = nil;
-    [lwh release];
-    lwh = nil;
-    [lwh release];
-    lwh = nil;
-    [ub release];
-    ub = nil;
-    [wh release];
-    wh = nil;
-    [lwh release];
-    lwh = nil;
-    [ub release];
-    ub = nil;
-    [super viewDidUnload];
+
+       [super viewDidUnload];
     
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
@@ -179,9 +165,7 @@
 
 - (void)dealloc
 {
-    [wh release];
-    [lwh release];
-    [ub release];
+
     [wh release];
     [lwh release];
     [ub release];

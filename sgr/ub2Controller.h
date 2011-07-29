@@ -1,15 +1,15 @@
 //
-//  ubController.h
+//  ub2Controller.h
 //  sgr
 //
-//  Created by Liu Yifan on 11-7-25.
+//  Created by Boris Wang on 11-7-27.
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 
-@interface ubController : UIViewController {
+@interface ub2Controller : UIViewController {
     
     IBOutlet UIImageView *ub1detail;
     IBOutlet UIImageView *ub2detail;
@@ -18,5 +18,6 @@
 - (IBAction)ub1:(id)sender;
 - (IBAction)ub2:(id)sender;
 - (IBAction)ub3:(id)sender;
+
 
 @end
