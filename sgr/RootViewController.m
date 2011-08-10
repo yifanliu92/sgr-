@@ -9,12 +9,19 @@
 #import "whController.h"
 #import "lwhController.h"
 #import "ub2Controller.h"
+#import "obController.h"
+#import "wbController.h"
+#import "borController.h"
+#import "bnsController.h"
+#import "bmController.h"
+#import "bhabController.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    titleArr = [[NSArray alloc] initWithObjects:@"Water Hazard",@"Lateral Water Hazard",@"Unplayable Ball",@"Out of Bounce/Lost Ball",@"Wrong Ball",@"Ball Resting on Rake",@"Ball can't stop when taking a drop",@"Ball moved or picked up",@"A ball hit another ball", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -53,7 +60,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 9;
 }
 
 // Customize the appearance of table view cells.
@@ -63,15 +70,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        if (indexPath.row == 0){
-            cell = wh;
-        }
-        if (indexPath.row == 1){
-            cell = lwh;
-        }
-        if (indexPath.row == 2){
-            cell = ub;
-        }
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+        cell.textLabel.text = [titleArr objectAtIndex:indexPath.row];
     }
     // Configure the cell.
     return cell;
@@ -118,33 +118,62 @@
  }
  */
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
         
         whController *detailViewController = [[whController alloc] initWithNibName:@"whController" bundle:nil];
-        {
-            
             [self.navigationController pushViewController: detailViewController animated:YES];
             [detailViewController release];
-        }
     }
     
     if (indexPath.row == 1) {
         lwhController *detailViewController = [[lwhController alloc] initWithNibName:@"lwhController" bundle:nil];
-        {
             [self.navigationController pushViewController: detailViewController animated:YES];
             [detailViewController release];
-        }
     }
     
     if (indexPath.row == 2) {
         ub2Controller *detailViewController = [[ub2Controller alloc] initWithNibName:@"ub2Controller" bundle:nil];
-        {
             [self.navigationController pushViewController: detailViewController animated:YES];
             [detailViewController release];
-        }
-    }   
+    }
+        
+    if (indexPath.row == 3) {
+        obController *detailViewController = [[obController alloc] initWithNibName:@"obController" bundle:nil];
+            [self.navigationController pushViewController: detailViewController animated:YES];
+            [detailViewController release];
+    }
+    if (indexPath.row == 4) {
+        wbController *detailViewController = [[wbController alloc] initWithNibName:@"wbController" bundle:nil];
+        
+            [self.navigationController pushViewController: detailViewController animated:YES];
+            [detailViewController release];
+    }
+    if (indexPath.row == 5) {
+        borController *detailViewController = [[borController alloc] initWithNibName:@"borController" bundle:nil];
+        
+        [self.navigationController pushViewController: detailViewController animated:YES];
+        [detailViewController release];
+    }
+    if (indexPath.row == 6) {
+        bnsController *detailViewController = [[bnsController alloc] initWithNibName:@"bnsController" bundle:nil];
+        
+        [self.navigationController pushViewController: detailViewController animated:YES];
+        [detailViewController release];
+    }
+    if (indexPath.row == 7) {
+        bmController *detailViewController = [[bmController alloc] initWithNibName:@"bmController" bundle:nil];
+        
+        [self.navigationController pushViewController: detailViewController animated:YES];
+        [detailViewController release];
+    }
+    if (indexPath.row == 8) {
+        bhabController *detailViewController = [[bhabController alloc] initWithNibName:@"bhabController" bundle:nil];
+        
+        [self.navigationController pushViewController: detailViewController animated:YES];
+        [detailViewController release];
+    }
 }
 - (void)didReceiveMemoryWarning
 {
@@ -169,7 +198,13 @@
     [wh release];
     [lwh release];
     [ub release];
+    [ob release];
+    [wb release];
+    
     [super dealloc];
 }
+    
+    
+    
 
 @end
