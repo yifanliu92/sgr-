@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		A16ED40A13DFF53100FEFA9A /* ub2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A16ED40813DFF53100FEFA9A /* ub2Controller.m */; };
 		A16ED40B13DFF53100FEFA9A /* ub2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16ED40913DFF53100FEFA9A /* ub2Controller.xib */; };
+		DD030B7F13F4C68300521B32 /* bhab pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B7913F4C68300521B32 /* bhab pic.png */; };
+		DD030B8013F4C68300521B32 /* bm pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B7A13F4C68300521B32 /* bm pic.png */; };
+		DD030B8113F4C68300521B32 /* bns pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B7B13F4C68300521B32 /* bns pic.png */; };
+		DD030B8213F4C68300521B32 /* bor pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B7C13F4C68300521B32 /* bor pic.png */; };
+		DD030B8413F4C68300521B32 /* wb pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B7E13F4C68300521B32 /* wb pic.png */; };
+		DD030B8713F4C7F700521B32 /* ob pic.png in Resources */ = {isa = PBXBuildFile; fileRef = DD030B8613F4C7F700521B32 /* ob pic.png */; };
 		DD17BB1313F24CD800F6F803 /* borController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17BB1113F24CD800F6F803 /* borController.m */; };
 		DD17BB1413F24CD800F6F803 /* borController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD17BB1213F24CD800F6F803 /* borController.xib */; };
 		DD17BB1913F24CFE00F6F803 /* bnsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17BB1713F24CFE00F6F803 /* bnsController.m */; };
@@ -67,6 +73,12 @@
 		A16ED40713DFF53000FEFA9A /* ub2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ub2Controller.h; sourceTree = "<group>"; };
 		A16ED40813DFF53100FEFA9A /* ub2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ub2Controller.m; sourceTree = "<group>"; };
 		A16ED40913DFF53100FEFA9A /* ub2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ub2Controller.xib; sourceTree = "<group>"; };
+		DD030B7913F4C68300521B32 /* bhab pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bhab pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/bhab pic.png"; sourceTree = "<group>"; };
+		DD030B7A13F4C68300521B32 /* bm pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bm pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/bm pic.png"; sourceTree = "<group>"; };
+		DD030B7B13F4C68300521B32 /* bns pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bns pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/bns pic.png"; sourceTree = "<group>"; };
+		DD030B7C13F4C68300521B32 /* bor pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bor pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/bor pic.png"; sourceTree = "<group>"; };
+		DD030B7E13F4C68300521B32 /* wb pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wb pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/wb pic.png"; sourceTree = "<group>"; };
+		DD030B8613F4C7F700521B32 /* ob pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ob pic.png"; path = "../../../Desktop/Chutong/Simple Golf Rules/PICs/HD/ob pic.png"; sourceTree = "<group>"; };
 		DD17BB1013F24CD800F6F803 /* borController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = borController.h; sourceTree = "<group>"; };
 		DD17BB1113F24CD800F6F803 /* borController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = borController.m; sourceTree = "<group>"; };
 		DD17BB1213F24CD800F6F803 /* borController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = borController.xib; sourceTree = "<group>"; };
@@ -251,6 +263,12 @@
 				DDA55BC013EFAC6B001F491C /* bor.png */,
 				DDA55BC113EFAC6B001F491C /* ob.png */,
 				DDA55BC213EFAC6B001F491C /* wb.png */,
+				DD030B7913F4C68300521B32 /* bhab pic.png */,
+				DD030B7A13F4C68300521B32 /* bm pic.png */,
+				DD030B7B13F4C68300521B32 /* bns pic.png */,
+				DD030B7C13F4C68300521B32 /* bor pic.png */,
+				DD030B8613F4C7F700521B32 /* ob pic.png */,
+				DD030B7E13F4C68300521B32 /* wb pic.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,6 +358,12 @@
 				DD17BB1A13F24CFE00F6F803 /* bnsController.xib in Resources */,
 				DD17BB1F13F24D1300F6F803 /* bmController.xib in Resources */,
 				DD17BB2413F24D2A00F6F803 /* bhabController.xib in Resources */,
+				DD030B7F13F4C68300521B32 /* bhab pic.png in Resources */,
+				DD030B8013F4C68300521B32 /* bm pic.png in Resources */,
+				DD030B8113F4C68300521B32 /* bns pic.png in Resources */,
+				DD030B8213F4C68300521B32 /* bor pic.png in Resources */,
+				DD030B8413F4C68300521B32 /* wb pic.png in Resources */,
+				DD030B8713F4C7F700521B32 /* ob pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
