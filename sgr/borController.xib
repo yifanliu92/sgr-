@@ -45,7 +45,7 @@
 					<object class="IBUIImageView" id="117174592">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{-67, -13}, {400, 520}}</string>
+						<string key="NSFrame">{{-40, -52}, {400, 520}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -112,8 +112,8 @@
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="117174592"/>
 							<reference ref="296214636"/>
+							<reference ref="117174592"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -189,7 +189,7 @@
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{400, 520}</string>
+				<string>{320, 416}</string>
 				<string>{175, 107}</string>
 			</object>
 		</object>
